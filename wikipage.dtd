@@ -1,0 +1,9 @@
+<!ELEMENT article (title,(heading|paragraph)*)>
+        <!ELEMENT title (#PCDATA)>
+        <!ELEMENT heading (#PCDATA)>
+        <!ELEMENT paragraph (#PCDATA|i|b|link)*>
+
+        <!ELEMENT b (#PCDATA|i|link)*>
+        <!ELEMENT i (#PCDATA|b|link)*>
+        <!ELEMENT link (#PCDATA)>
+        <!ATTLIST link page CDATA #REQUIRED>
