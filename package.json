@@ -6,7 +6,8 @@
   "scripts": {
     "build": "node scripts/build.js",
     "serve": "http-server dist -p 3000",
-    "dev": "npm run build && npm run serve"
+    "dev": "npm run build && npm run serve",
+    "editor": "npm run build && http-server scripts/editor -p 3001"
   },
   "private": true,
   "devDependencies": {

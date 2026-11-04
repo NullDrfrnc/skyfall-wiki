@@ -1,0 +1,44 @@
+* {
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    --border-rounding: 0.5rem;
+
+    --editor-background: #FAEBD7;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+
+    background: #3c3c3c;
+}
+
+.tab {
+    border-radius: var(--border-rounding) var(--border-rounding) 0 0;
+    background: var(--editor-background);
+    padding: 0.5rem;
+}
+
+.editor-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0.75rem 0.75rem 0 0.75rem;
+}
+
+.editor-tabs {
+    width: 100%;
+}
+
+.editor-crud {
+    white-space: nowrap;
+}
+
+.editor-body {
+    background: var(--editor-background);
+
+    border-radius: var(--border-rounding);
+}
